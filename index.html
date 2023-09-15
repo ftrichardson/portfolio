@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+<!--        TODO: Make navbar selection change depending on section you are in-->
+        <title>Flynn Richardson</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,450,500,550,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/social-circles.min.css">
+    </head>
+    
+    <body>
+        <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+        <div id="about"></div>
+        <header class="container-fluid text-center">
+            
+            <div class="header-logo d-none d-md-block">
+                Flynn Richardson
+<!--                <a href="https://github.com/ftrichardson" class="d-none d-md-block">Flynn Richardson</a>-->
+            </div>  
+            
+        </header>
+        
+        <div id="navbarSubstitute" class="col-xs-12"></div>
+        
+        <nav id="nav" class="navbar navbar-expand-md navbar-light bg-faded">
+            <div class="col-xs-4">
+                <button class="navbar-toggler delete-border" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    
+                    <div style="position: relative; width: 0; height: 0">
+                        <span class="navbar-toggler-icon" style="position: absolute; left: 0px; top: -15px"></span>
+                    </div>
+                    
+                
+                </button>
+            </div>
+            <div class="col-xs-4">
+                <div class="header-logo navbar-brand navbar-toggler delete-border" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <p>Flynn Richardson</p>
+                </div>
+            </div>
+            <div class="col-xs-4"></div>
+                        
+            <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+                <div class="center">
+                    <ul id="navbarList" class="nav navbar-nav">
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#projects">projects</a></li>
+                        <li><a href="#education">education</a></li>
+                        <li><a href="#skills">skills</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </nav>
+        
+        <!-- Spacer -->
+        <div class="col-xs-12" style="height:5vh;"></div>
+        <!-- https://codepen.io/ThibaultG4U/pen/kXVZqm-->
+        <!-- https://codepen.io/edge0703/pen/iHJuA-->
+        <!-- https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg -->
+        
+        <div class="myBanner">
+            
+            <a href="https://www.github.com/ftrichardson" target="_blank">
+                <!--<div class="ratio img-responsive img-circle myCircleImage inlineBlock verticalAlignMiddle"></div>-->
+                <div class="ratio img-responsive img-circle myCircleImageNoHover inlineBlock verticalAlignMiddle"></div>
+            </a>
+            <div class="inlineBlock verticalAlignMiddle textAlignLeft col-md-6">
+                <div class="animatedFadeIn fadeInDown">
+                    <span class="text">
+                        Welcome! I'm a recent University of Chicago graduate and self-taught programmer seeking a career in software engineering. Aside from coding, I love writing, playing video games, and leveling up however and whenever I can! 
+                    </span>
+                    <!-- <div class="col-xs-12" style="height:5vh;"></div> -->
+                    <!-- <div class="icons">
+                        <a class="icon-github social-button borderless static" href="https://github.com/ftrichardson" target="_blank"></a>
+                    </div> -->
+                </div>
+            </div> 
+            <!-- <div class="col-xs-12" style="height:1em;"></div> -->
+            <div class="icons">
+                <a class="icon-github social-button borderless static" href="https://github.com/ftrichardson" target="_blank"></a>
+            </div>
+        </div>
+
+        
+        <div id="projects" style="background-color: black;"></div>
+        <div class="horizontalLine"></div>
+        <div style="text-align: center">
+            <h1 class="sectionHeader"> Projects </h1>
+        </div>
+
+        <div id="movie-card-list">
+            
+            <div class="movie-card container revealOnScroll" data-animation="slideInLeft" data-timeout="0">
+                <a href="https://github.com/ftrichardson/aux-cord" target="_blank">
+                    <div class="color-overlay">
+                        <div class="moviePicture inlineBlock">
+                            <div class="thumbnail"></div>
+                        </div>
+                        <div class="movie-content inlineBlock">
+                            <h4>Aux Cord</h4>
+                            <div class="movie-header">
+                                <h1 class="movie-title">Aux Cord</h1>
+                                <h4 class="movie-info">Python, Django</h4>
+                            </div>
+                            <p class="movie-desc">Enables two Spotify users with distinct interests to algorithmically find musical commonalities via machine learning</p>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="movie-card container revealOnScroll" data-animation="slideInLeft" data-timeout="200">
+                <a href="https://github.com/ftrichardson/autocompletion-trie" target="_blank">
+                    <div class="color-overlay">
+                        <div class="moviePicture inlineBlock">
+                            <div class="thumbnail"></div>
+                        </div>
+                        <div class="movie-content inlineBlock">
+                            <h4>Miscellaneous Coursework</h4>
+                            <div class="movie-header">
+                                <h1 class="movie-title">Aux Cord</h1>
+                                <h4 class="movie-info">Python, C</h4>
+                            </div>
+                            <p class="movie-desc">Miscellanous programming coursework completed at the University of Chicago</p>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+<!--             style="background-image: url(https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg);"-->
+            
+            
+            <p class="plaintext">
+                I can also make websites like this one!
+            </p>
+        </div>
+        
+        <div id="education"></div>
+        <div class="col-xs-12" style="height:5px;"></div>
+        <div class="horizontalLine"></div>
+        <div style="text-align: center">
+            <h1 class="sectionHeader"> Education </h1>
+        </div>
+        <p class="plaintext">  I recently graduated with a BA in English Language and Literature from the University of Chicago. </p>
+        <div class="col-xs-12" style="height:1em;"></div>
+        <p class="plaintext">  
+            <span class='bold'>Related Coursework:</span>
+            <a id='show' class='button-show' onclick='show("courses");'><span class='button-show'>Show</span></a>
+            <div id='courses' class='hidden'>
+                <p class="plaintext">
+                    <span class='bold'>CMSC 12100</span>  Computer Science with Applications I [Python], 
+                    <span class='bold'>CMSC 12200</span>  Computer Science with Applications II Python], 
+                    <span class='bold'>CMSC 15200</span>  Introduction to Computer Science II [C] 
+                    <a id='hide' class='button-show' onclick='hide("courses");'><span class='button-show'>Hide</span></a>
+                </p>
+            </div>
+        </p>
+    
+        <div id="skills"></div>
+        <div class="horizontalLine"></div>
+        <div style="text-align: center">
+            <h1 class="sectionHeader"> Skills </h1>
+        </div>
+        <div id="skillCardList">
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png);"></div>
+                <div class="skillCardBody">
+                    TypeScript
+                </div>
+            </div>
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433);"></div>
+                <div class="skillCardBody">
+                    JavaScript ES6
+                </div>
+            </div>
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://nodejs.org/static/images/logo-hexagon-card.png);"></div>
+                <div class="skillCardBody">
+                    Node.js
+                </div>
+            </div>
+
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://cdn.auth0.com/blog/react-js/react.png);"></div>
+                <div class="skillCardBody">
+                    React
+                </div>
+            </div>
+
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(data:image/png;base64,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);"></div>
+                <div class="skillCardBody">
+                    Redux
+                </div>
+            </div>
+
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png);"></div>
+                <div class="skillCardBody">
+                    GraphQL
+                </div>
+            </div>
+
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png);"></div>
+                <div class="skillCardBody">
+                    Next.js
+                </div>
+            </div>
+
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png);"></div>
+                <div class="skillCardBody">
+                    C
+                </div>
+            </div>
+
+<!--            https://pbs.twimg.com/profile_images/788777950132830208/vgO3N1r7_400x400.jpg-->
+            <!-- <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png);"></div>
+                <div class="skillCardBody">
+                    Bootstrap
+                </div>
+            </div>
+
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://pbs.twimg.com/profile_images/788014136575668224/lxEKmMnB_400x400.jpg);"></div>
+                <div class="skillCardBody">
+                    jQuery
+                </div>
+            </div> -->
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://pbs.twimg.com/profile_images/471371508489547776/kEpgHiC9_400x400.png);"></div>
+                <div class="skillCardBody">
+                    HTML
+                </div>
+            </div>
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(http://www.stefanolupo.com/img/about-me/css3.png);"></div>
+                <div class="skillCardBody">
+                    CSS
+                </div>
+            </div>
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png);"></div>
+                <div class="skillCardBody">
+                    Python
+                </div>
+            </div>
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://qph.fs.quoracdn.net/main-qimg-48b7a3d8958565e7aa3ad4dbf2312770.webp);"></div>
+                <div class="skillCardBody">
+                    Java
+                </div>
+            </div>
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(data:image/png;base64,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);"></div>
+                <div class="skillCardBody">
+                    SQL
+                </div>
+            </div>
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png);"></div>
+                <div class="skillCardBody">
+                    git
+                </div>
+            </div>
+
+            <div class="skillCard">
+                <div class="skillCardIcon" style="background-image: url(https://authy.com/wp-content/uploads/npm-logo.png);"></div>
+                <div class="skillCardBody">
+                    npm/yarn
+                </div>
+            </div>
+            
+            
+        </div>
+<!--    Python Tensorflow Java JavaScript WebGL Threejs Bootstrap jQuery HTML CSS git.     -->
+        
+        <div id="contact"></div>
+        <div class="horizontalLine"></div>
+        <div style="text-align: center">
+            <h1 class="sectionHeader" style="text-transform: none;"> Contact Me! </h1>
+        </div>
+        <div class="icons">
+            <a class="icon-github social-button borderless static" href="https://github.com/ftrichardson" target="_blank"></a>
+            <a class="icon-linkedin social-button borderless static" href="https://www.linkedin.com/in/flynn-richardson-5ab45a175/" target="_blank"></a>
+        </div>
+        <div class="contact content-body">
+            <form method="POST" action="https://formspree.io/f/xbjvkodw">
+                <input type="hidden" name="_subject" value="Contact request from personal website">
+                <input type="email" name="_replyto" placeholder="Your email" required="">
+                <textarea name="message" placeholder="Your message" required=""></textarea>
+                <button type="submit">Send</button>
+            </form>
+          </div>
+        <div class="col-xs-12" style="height:30vh;"></div>
+
+        <footer class="text-center">
+            <p class="copyright">COPYRIGHT © 2023</p>  
+        </footer>
+        
+        
+        
+         <script>
+        
+            const navbar = document.getElementById("nav")
+            const sticky = navbar.offsetTop; // Get the offset position of the navbar
+            // navbarSubstitute is a substitute for the navbar's height
+            // when it gets stickied, stopping the sudden jump
+            const navbarSubstitute = document.getElementById("navbarSubstitute")
+            navbarSubstitute.style.height = 0;
+            const navbarSubstituteHeight = navbar.offsetHeight
+
+            let disableAutoNavbarHighlight = false;
+            
+            
+            // navbar-highlight variables
+            const navbarLis = $('#navbarList').children();
+            const navbarLinks = $('#navbarList').find('a');
+            let anchorBottoms = [];
+
+            for(let i=0; i<navbarLinks.length; i++){
+                let a = navbarLinks[i]
+                let idToFind = a.getAttribute('href')
+                let anchor = $(idToFind)
+                anchorBottoms.push(anchor.offset().top + anchor.height())
+                
+            }
+             
+             // i dont think this is doing anything, the implementation in the onscroll function seems to be fixing the problem resize problem
+             $(window).on('resize',function(){
+                for(let i=0; i<navbarLinks.length; i++){
+                    let a = navbarLinks[i]
+                    let idToFind = a.getAttribute('href')
+                    let anchor = $(idToFind)
+                    anchorBottoms[i] = (anchor.offset().top + anchor.height())
+                }
+            })
+            
+            
+            window.onscroll = function() {
+            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+                if (window.pageYOffset >= sticky) {
+                    //navbar.classList.add("fixed-top")
+                    navbar.classList.add("sticky-header");
+                    navbarSubstitute.style.height = navbarSubstituteHeight + "px"
+                } else {
+                    //navbar.classList.remove("fixed-top");
+                    navbar.classList.remove("sticky-header");
+                    navbarSubstitute.style.height = 0
+                }
+                
+                
+                // Position based navbar highlighting
+                
+                // fixes resize bug
+                for(let i=0; i<navbarLinks.length; i++){
+                    let a = navbarLinks[i]
+                    let idToFind = a.getAttribute('href')
+                    let anchor = $(idToFind)
+                    anchorBottoms[i] = (anchor.offset().top + anchor.height())
+
+                }
+                // we round here to reduce a little workload https://stackoverflow.com/questions/20276166/how-do-i-make-my-navbar-change-css-class-upon-scrolling-past-an-anchor-point
+                let stopy = Math.floor($(window).scrollTop() + 1);
+
+                for(let i=0; i<navbarLinks.length; i++){
+//                    if(!anchorBottoms[i]) continue; // be careful can be 0!
+                    let bottom = anchorBottoms[i]
+                    let top = anchorBottoms[i + 1] ? anchorBottoms[i + 1] : Number.POSITIVE_INFINITY
+                    let a = navbarLinks[i]
+                    let idToFind = a.getAttribute('href')
+                    
+                    if (stopy > bottom && stopy <= top) {
+                        if(!disableAutoNavbarHighlight)
+                            navbarLis[i].classList.add('active');
+                    } else {
+                        navbarLis[i].classList.remove('active');
+                    }
+                }
+                
+                
+                
+                
+                revealOnScroll();
+            };
+            
+            // smooth scrolling
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    
+                    removeAllNavHighlights();
+//                    disableAutoNavbarHighlight = true;  // temporarily disable
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth',
+                        block: "start" // or "end"
+                    });
+//                    disableAutoNavbarHighlight = false; // reenable
+                    window.onscroll(); // simulate a scroll update
+                });
+            });
+            
+            function removeAllNavHighlights(){
+                $('#navbarList').children().removeClass("active")
+            }
+            
+            // just a function to help me figure out measurements the css :)
+            function calculateMaxSizeForCard(picWidth, percentCardWidth, percentDescriptionWidth){
+                // assumes no margins
+                return picWidth / (percentCardWidth - percentCardWidth * percentDescriptionWidth)
+            }
+            
+             
+            let $window = $(window);
+            let win_height_padded = $window.height() * 1;
+             
+            function revealOnScroll() {
+                var scrolled = $window.scrollTop();
+                $(".revealOnScroll:not(.animated)").each(function () {
+                  var $this     = $(this),
+                      offsetTop = $this.offset().top,
+                      offsetBottom = $this.position().top + $this.outerHeight(true),
+                      mid = (offsetTop + offsetBottom)/2
+                    
+                    
+                  if (scrolled + win_height_padded > mid && scrolled < mid) {
+                    if ($this.data('timeout')) {
+                      window.setTimeout(function(){
+                        $this.addClass('animated ' + $this.data('animation'));
+                      }, parseInt($this.data('timeout'),10));
+                    } else {
+                      $this.addClass('animated ' + $this.data('animation'));
+                    }
+                  }
+                });
+            }
+
+            function show(target) {
+                let showLink = document.getElementById('show');
+                showLink.classList += ' hidden';
+
+                let showTarget = document.getElementById(target);
+                showTarget.classList = showTarget.classList.remove('hidden');
+            }
+
+            function hide(target) {
+                let hideTarget = document.getElementById(target);
+                hideTarget.classList += ' hidden';
+
+                let showTarget = document.getElementById('show');
+                showTarget.classList = showTarget.classList.remove('hidden');
+            }
+             
+             
+            window.onscroll()
+        </script>
+        
+        
+        
+    </body>
+    
+</html>
