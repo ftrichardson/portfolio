@@ -747,7 +747,7 @@ a {
 /* custom thumbnails */
 
 #movie-card-list .movie-card:nth-child(1) .thumbnail {
-    background-image: url(./images/auxcord.png);
+    background-image: url(./images/aux-cord.png);
     background-size: 300px 200px;
     width: 300px;
     height: 200px;
