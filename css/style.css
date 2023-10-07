@@ -754,14 +754,12 @@ a {
 }
 
 #movie-card-list .movie-card:nth-child(2) .thumbnail {
-/*    background-image: url(https://picsum.photos/320/200);*/
     background-image: url(./images/uchicago-icon.png);
     background-size: 300px 200px;
     background-repeat: no-repeat;
     width: 300px;
     height: 200px;
 }
-
 /*
 .movie-card:nth-child(2) {
 	background-image: $background-image2;
